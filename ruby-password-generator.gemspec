@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require_relative "lib/ruby/password/generator/version"
+require_relative "lib/password_generator"
 
 Gem::Specification.new do |spec|
   spec.name = "ruby-password-generator"
-  spec.version = Ruby::Password::Generator::VERSION
+  spec.version = PasswordGenerator::VERSION
   spec.authors = ["Dorian Oszczęda"]
   spec.email = "vxern@wordcollector.co.uk"
 
@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
     "homepage_uri" => spec.homepage,
     "source_code_uri" => "https://github.com/vxern/ruby-password-generator",
     "bug_tracker_uri" => "https://github.com/vxern/ruby-password-generator/issues",
-    "changelog_uri" => "https://github.com/vxern/ruby-password-generator/blob/main/CHANGELOG.md",
+    "changelog_uri" => "https://github.com/vxern/ruby-password-generator/blob/main/CHANGELOG.md"
     # "documentation_uri" => "",
     # "mailing_list_uri" => "",
     # "wiki_uri" => "",

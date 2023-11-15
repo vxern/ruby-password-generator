@@ -1,0 +1,12 @@
+type options = {
+    random: Random,
+    use_each_character_set?: bool,
+  }
+
+module Generator
+  def self.generate: (length: Integer, character_sets: Array[Array[String]], options: options | { }) -> String
+
+  def self.generate_careless: (random: Random, length: Integer, character_set: Array[String]) -> String
+
+  def self.generate_careful: (random: Random, length: Integer, character_sets: Array[Array[String]]) -> String
+end

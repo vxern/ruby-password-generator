@@ -1,0 +1,15 @@
+class CharacterSet
+  ALPHABETICAL_LOWER: Array[String]
+  ALPHABETICAL_UPPER: Array[String]
+  NUMERIC: Array[String]
+  SYMBOLS: Array[String]
+
+  class Combined
+    ALPHABETICAL: Array[String]
+    ALPHANUMERIC_LOWER: Array[String]
+    ALPHANUMERIC_UPPER: Array[String]
+    ALPHANUMERIC: Array[String]
+    NONALPHABETICAL: Array[String]
+    ALL: Array[String]
+  end
+end
